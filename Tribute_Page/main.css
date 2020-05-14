@@ -1,0 +1,56 @@
+#main {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(219, 219, 219, 0.486);
+}
+
+#title {
+    font-size: 52px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+#img-div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 70%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+#img-caption {
+    padding: 20px;
+}
+
+#tribute-info {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+#info {
+    font-size: 1.3em;
+}
+
+#tribute-link {
+    text-decoration: none;
+}
