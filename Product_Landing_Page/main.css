@@ -1,0 +1,88 @@
+
+/*=============================================
+=            IMPORTS & Variables            =
+=============================================*/
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+--primary-font: "Jost", sans-serif;
+--bg-color: #FFD4B7;
+--nav-link: hsl(24, 100%, 60%);
+--nav-link-hover: hsl(24, 100%, 45%);
+}
+/*=====  End of IMPORTS & Variables  ======*/
+
+
+
+/*=============================================
+=            BODY STYLE            =
+=============================================*/
+body {
+    background-color:  var(--bg-color);
+    font-family: var(--primary-font);
+}
+/*=====  End of BODY STYLE  ======*/
+
+
+/*=============================================
+=            MAIN STYLE            =
+=============================================*/
+#main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*=====  End of MAIN STYLE  ======*/
+
+
+
+/*=============================================
+=            HEADER STYLE            =
+=============================================*/
+@media (min-width: 300px) {
+    #header {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    position: fixed;
+    padding-top: 40px;
+    align-items: center;
+}
+
+#header-img {
+    width: 150px;
+}
+
+.nav-link {
+    padding: 20px;
+    text-decoration: none;
+    color: var(--nav-link);
+}
+
+.nav-link:hover {
+    padding: 20px;
+    text-decoration: none;
+    color: var(--nav-link-hover);
+}
+/*=====  End of HEADER STYLE  ======*/
+
+
+
+/*=============================================
+=            SECTION CONTENT STYLE            =
+=============================================*/
+#section-content {
+    padding-top: 100px;
+}
+
+
+/*=====  End of SECTION CONTENT STYLE  ======*/
+
+
+
