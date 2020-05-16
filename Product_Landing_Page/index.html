@@ -38,13 +38,20 @@
             </section>
         </div>
         <div id="contact">
+            <h2>Contact Us</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
-                <label for="name">
-                    Name<input id="name" type="text" placeholder="Enter your name">
-                </label>
-                <label for="email">
-                    Email<input type="email" name="email" id="email" placeholder="Enter your email">
-                </label>
+                <div class="flex-form">
+                    <div class="col1">
+                        <label for="name"><p class="label-name">Name</p>
+                            <input id="name" type="text" placeholder="Enter your name">
+                        </label>
+                    </div>
+                    <div class="col1">
+                        <label for="email"><p class="label-name">Email</p>
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                        </label>
+                    </div>
+                </div>
                 <input id="submit" type="submit" value="Submit">
             </form>
         </div>
