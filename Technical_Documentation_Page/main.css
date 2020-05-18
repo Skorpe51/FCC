@@ -1,0 +1,111 @@
+/*=============================================
+=            IMPORTS                        =
+=============================================*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Sen&display=swap');
+/*=============================================
+=            ROOT STYLE            =
+=============================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --title-font: 'Nunito', sans-serif;
+    --nav-font: 'Sen', sans-serif;
+}
+
+/*=====  End of ROOT STYLE  ======*/
+
+
+/*=============================================
+=            MAIN DOC STYLE            =
+=============================================*/
+#main-doc {
+    display: flex;
+    flex-flow: row wrap;
+}
+/*=====  End of MAIN DOC STYLE  ======*/
+
+
+
+/*=============================================
+=            NAVBAR STYLE            =
+=============================================*/
+#navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border-right: 3px solid #909090;
+    height: 100vh;
+}
+
+#navbar .title-nav {
+    font-family: var(--title-font);
+    font-weight: normal;
+    font-size: 2em;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #414141;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-align: left;
+    font-family: var(--nav-font);
+    font-weight: normal;
+    color: #181818;
+    width: 100%;
+    border-bottom: 1px solid #414141;
+    padding: 10px 0 10px 20px;
+}
+/*=====  End of NAVBAR STYLE  ======*/
+
+
+/*=============================================
+=            SECTION CONTAINER STYLE            =
+=============================================*/
+#section-container {
+    flex-grow: 1;
+    margin-left: 15%;
+}
+
+#section-container .main-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#section-container .main-section .title-section {
+    font-family: var(--title-font);
+    font-size: 1.6em;
+    padding: 20px 0 20px 0;
+}
+
+#section-container .main-section p {
+    padding: 20px 0 20px 10px;
+    font-weight: normal;
+    font-family: var(--nav-font);
+    color: #414141;
+}
+
+#section-container .main-section ul {
+    padding-left: 60px;
+}
+
+#section-container .main-section li {
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-family: var(--nav-font);
+    color: #414141;
+}
+
+#section-container .main-section .code {
+    background-color:   #F9FAF5;
+    /* width: 90%; */
+    padding: 20px 0 20px 10px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+#section-container .main-section .ul2 {
+    padding-top: 20px;
+}
+/*=====  End of SECTION CONTAINER STYLE  ======*/
