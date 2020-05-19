@@ -1,0 +1,50 @@
+/*----------  IMPORTS  ----------*/
+
+
+/*----------  ROOT STYLE  ----------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;  
+    box-sizing: border-box;
+}
+
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 7vh;
+    background-color: #ccc;
+    box-shadow: 2px 2px 3px #888888;
+    position: fixed;
+    width: 100vw;
+}
+
+#navbar .container-links {
+    padding-right: 4vw;
+}
+
+#navbar .nav-link {
+    padding: 1vw;
+    text-decoration: none;
+    color: #000;
+}
+
+#welcome-section {
+    height: 100vh;
+    text-align: center;
+    
+}
+
+#welcome-section .intro-b-title {
+    padding-top: 30vh;
+    margin: 0 auto;
+    font-size: 10em;
+}
+
+#welcome-section .intro-s-title {
+    font-size: 2em;
+}
