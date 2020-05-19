@@ -99,7 +99,6 @@
 
 #section-container .main-section .code {
     background-color:   #F9FAF5;
-    /* width: 90%; */
     padding: 20px 0 20px 10px;
     margin: 0 auto;
     border-radius: 3px;
@@ -109,3 +108,48 @@
     padding-top: 20px;
 }
 /*=====  End of SECTION CONTAINER STYLE  ======*/
+
+
+/*=============================================
+=            MEDIA STYLE            =
+=============================================*/
+@media screen and (max-width: 600px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100vw;
+        border-bottom: 1px solid #414141;
+    }
+
+    #navbar .title-nav {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #section-container {
+        margin: 0;
+        padding-top: 40px;
+        font-size: 4vw;
+    }
+
+    #section-container .main-section {
+        margin: 0;
+        padding: 0;
+    }
+
+    #section-container .main-section .title-section {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    #section-container .main-section .code {
+        background-color:   #F9FAF5;
+        border-radius: 3px;
+        width: 100vw;
+    }
+}
+
+/*=====  End of MEDIA STYLE  ======*/
+
