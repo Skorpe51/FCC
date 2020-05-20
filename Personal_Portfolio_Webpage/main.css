@@ -17,7 +17,7 @@
     justify-content: flex-end;
     align-items: center;
     height: 7vh;
-    background-color: #ccc;
+    background-color: #F7D6CD;
     box-shadow: 2px 2px 3px #888888;
     position: fixed;
     width: 100vw;
@@ -30,13 +30,16 @@
 #navbar .nav-link {
     padding: 1vw;
     text-decoration: none;
-    color: #000;
+    color: hsl(212, 37%, 62%);
+    font-size: 1.2em;
 }
 
 #welcome-section {
     height: 100vh;
     text-align: center;
-    
+    box-shadow: 2px 2px 3px #888888;
+    background-color: #DCE9F8;
+    color: hsl(13, 92%, 79%);
 }
 
 #welcome-section .intro-b-title {
@@ -47,4 +50,10 @@
 
 #welcome-section .intro-s-title {
     font-size: 2em;
+}
+
+
+#projects {
+    height: 100vh;
+    text-align: center;
 }
