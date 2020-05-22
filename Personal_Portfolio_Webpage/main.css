@@ -37,7 +37,6 @@
 #welcome-section {
     height: 100vh;
     text-align: center;
-    box-shadow: 2px 2px 3px #888888;
     background-color: #DCE9F8;
     color: hsl(13, 92%, 79%);
 }
@@ -62,8 +61,35 @@
 }
 
 #projects .intro-s-title {
-    font-size: 2em;
+    padding-top: 10vh;
+    font-size: 10em;
+    color: hsl(13, 92%, 79%);
 }
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+}
+
+#projects .card {
+    border: 1px solid #000;
+    width: 30vw;
+    height: auto;
+}
+
+#projects .card img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+#projects .card .card-title {
+    border: 1px solid #000;
+    margin-top: 20px;
+    padding: 10px;
+}
+
 
 #contact {
     height: 100vh;
