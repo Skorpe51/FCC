@@ -62,32 +62,29 @@
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-color: #F9F4F0;
+    background-color: #F7D6CD;
 }
 
 #projects .intro-s-title {
-    padding-top: 5vh;
-    font-size: 2em;
+    padding-top: 6vh;
+    font-size: 4em;
     color: hsl(13, 92%, 79%);
 }
 
 #projects .cards-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    border: 1px solid #000;
-    margin-top: 5vh;
-    height: auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5vmin;
+    grid-template-areas: "b b" "b b" "a a";
     width: 90vw;
 }
 
 #projects .cards-container .card {
-    width: 40%;
-    padding: 20px;
-    border: 1px solid #000;
-    /* height: auto; */
+    width: 60%;
+    background-color: #fff;
 }
 
 #projects .cards-container .card img {
@@ -95,13 +92,41 @@
     padding: 10px;
 }
 
-#projects .card #profile-link {
-    border: 1px solid #000;
-    margin-top: 20px;
+#projects .cards-container .card .card-link {
+    width: 100%;
+    height: 20%;
+    padding-top: 20px;
+    background-color: #F9F4F0;
+}
+
+#projects .cards-container .card .card-link .card-title {
+    font-size: 1.1em;
+}
+
+#projects .cards-container .card .project-tile {
+    text-decoration: none;
+    
+    color: hsl(13, 92%, 79%);
+}
+
+#projects .cards-container .card .card-link:hover {
+    background-color: #DCE9F8;
+}
+
+#git-card {
+    font-size: 1.4em;
+    grid-area: a;
+    color: hsl(13, 92%, 60%);
     padding: 10px;
 }
 
+#profile-link {
+    text-decoration: none;
+    color:hsl(152, 17%, 60%);
+}
 
+
+/*----------  CONTACT STYLE  ----------*/
 #contact {
     height: 100vh;
     text-align: center;
@@ -109,7 +134,7 @@
 }
 
 #contact .intro-b-title {
-    padding-top: 30vh;
+    padding-top: 10vh;
     margin: 0 auto;
-    font-size: 10em;
+    font-size: 4em;
 }
