@@ -209,3 +209,41 @@
     text-decoration: none;
     color: hsl(13, 92%, 60%);
 }
+
+
+/*----------  MEDIA STYLE  ----------*/
+
+@media (max-width: 300px) {
+    #navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar .container-links {
+        padding: 0;
+    }
+    #navbar .nav-link {
+        text-decoration: none;
+        color: hsl(13, 92%, 79%);
+        font-size: 1.1em;
+    }
+
+    #welcome-section {
+        height: 100vh;
+        text-align: center;
+        background-color: #DCE9F8;
+        color: hsl(13, 92%, 79%);
+    }
+    
+    #welcome-section .intro-b-title {
+        padding-top: 40vh;
+        margin: 0 auto;
+        font-size: 2.5em;
+    }
+    
+    #welcome-section .intro-s-title {
+        font-size: 1em;
+    }
+
+}
