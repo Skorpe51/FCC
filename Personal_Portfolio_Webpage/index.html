@@ -55,25 +55,31 @@
         </section>
         <section id="contact">
             <h1 class="intro-b-title">Get in touch with me</h1>
-            <form action="get">
-                <label for="name">
-                    Name <input type="text" placeholder="Enter your name...">
-                </label>
-                <label for="email">
-                    Email<input type="email" name="email" id="email" placeholder="Enter your email...">
-                </label>
-                <label for="textarea">
-                    Ask me something<textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your message!"></textarea>
-                </label>
-                <button type="submit">Send Message!</button>
+            <form id="contact-form" action="get">
+                <div class="lbl-inp">
+                    <label for="name"><h4>Name</h4>
+                        <input type="text" name="name" id="name" placeholder="Enter your name...">
+                    </label>
+                </div>
+                <div class="lbl-inp">
+                    <label for="email"><h4>Email</h4>
+                        <input type="email" name="email" id="email" placeholder="Enter your email...">
+                    </label>
+                </div>
+                <div class="lbl-inp">
+                    <label for="textarea"><h4>Ask me something</h4>
+                        <textarea name="textarea" id="textarea" cols="10" rows="5" placeholder="Enter your message!"></textarea>
+                    </label>
+                </div>
+                <button class="button" type="submit">Send Message!</button>
             </form>
 
-            <div class="socials">
+           <footer class="socials">
                 <a class="profile-link" href="https://github.com/Skorpe51" target="_blank">GitHub</a>
                 <a class="profile-link" href="https://twitter.com/Skorpe51" target="_blank">Twitter</a>
                 <a class="profile-link" href="https://www.linkedin.com/in/alexandru-noti" target="_blank">LinkedIn</a>
                 <a class="profile-link" href="https://www.freecodecamp.org/skorpe51" target="_blank">FreeCodeCamp</a>
-            </div>
+            </footer>
         </section>
     </main>
 </body>
